@@ -1,0 +1,1641 @@
+{
+    "eventId": "6835a4d2-d647-4960-bec7-bc231d1a572e",
+    "businessProcessId": "d3259506-6bf0-4f42-92c4-864ef598fcc6",
+    "businessProcessName": "TUI_NL CUSTOMER_UI FLIGHT_ONLY AMEND",
+    "producedTimeStamp": "2023-02-22T08:37:48.557+00:00",
+    "producedBy": "Reservation component",
+    "producedByVersion": "X-ray delta 4",
+    "payload": {
+        "changes": {
+            "paymentPlan": {
+                "balance": {
+                    "amount": {
+                        "amount": 27400,
+                        "currency": "EUR"
+                    },
+                    "dueDate": "2023-02-20"
+                },
+                "depositPolicy": {
+                    "rule": "99",
+                    "policy": "987c63a1-967e-4b95-a1bf-02acde48014a",
+                    "historic": {
+                        "changedBy": {
+                            "relationGuid": "relationGuid",
+                            "capacityId": "capacityId"
+                        },
+                        "id": "b191dd82-cd21-4b0d-a41a-3e61b424499a",
+                        "timestamp": "2023-02-22T08:36:08.578+00:00"
+                    }
+                }
+            },
+            "total": {
+                "amount": 228896,
+                "currency": "EUR"
+            },
+            "returnDate": "2023-03-06",
+            "reservations": [
+                {
+                    "components": [
+                        {
+                            "start": "2023-02-27T12:15:00.000Z",
+                            "end": "2023-02-27T17:55:00.000Z",
+                            "units": [
+                                {
+                                    "resolution": "add",
+                                    "addition": {
+                                        "sourcedUnit": {
+                                            "type": "baggage",
+                                            "id": "20230227--OR-365-AMSCUR"
+                                        },
+                                        "reservationUnitId": "4094f300-7693-4309-bde7-ea3479a64836",
+                                        "total": {
+                                            "amount": 2700,
+                                            "currency": "EUR"
+                                        },
+                                        "assignments": [
+                                            {
+                                                "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035",
+                                                "assignmentId": "1",
+                                                "assignmentType": "Adult"
+                                            }
+                                        ],
+                                        "priceDetails": [
+                                            {
+                                                "amount": {
+                                                    "amount": 2700,
+                                                    "currency": "EUR"
+                                                },
+                                                "unit": "total",
+                                                "perPerson": true,
+                                                "id": "e9f30f36-4da7-47f7-8fc0-f225e85557e9",
+                                                "units": 1,
+                                                "type": "Base Price",
+                                                "category": "Base Price",
+                                                "relatedTo": "7b93be67-2537-4577-bfc6-bd63b4fb114a"
+                                            }
+                                        ],
+                                        "start": "2023-02-27T12:15:00.000Z",
+                                        "end": "2023-02-27T17:55:00.000Z",
+                                        "productUnit": {
+                                            "version": "to be received from sales",
+                                            "id": "BG20"
+                                        },
+                                        "state": "pending"
+                                    }
+                                },
+                                {
+                                    "resolution": "add",
+                                    "addition": {
+                                        "sourcedUnit": {
+                                            "type": "baggage",
+                                            "id": "20230227--OR-365-AMSCUR"
+                                        },
+                                        "reservationUnitId": "1d7f7b2c-5212-4252-8efe-2e1b9600b324",
+                                        "total": {
+                                            "amount": 2700,
+                                            "currency": "EUR"
+                                        },
+                                        "assignments": [
+                                            {
+                                                "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741",
+                                                "assignmentId": "2",
+                                                "assignmentType": "Adult"
+                                            }
+                                        ],
+                                        "priceDetails": [
+                                            {
+                                                "amount": {
+                                                    "amount": 2700,
+                                                    "currency": "EUR"
+                                                },
+                                                "unit": "total",
+                                                "perPerson": true,
+                                                "id": "ec111513-6ebd-47b4-9b0d-9b0d6e883a74",
+                                                "units": 1,
+                                                "type": "Base Price",
+                                                "category": "Base Price",
+                                                "relatedTo": "3ff191d2-6416-4106-b808-7680415b0f1d"
+                                            }
+                                        ],
+                                        "start": "2023-02-27T12:15:00.000Z",
+                                        "end": "2023-02-27T17:55:00.000Z",
+                                        "productUnit": {
+                                            "version": "to be received from sales",
+                                            "id": "BG20"
+                                        },
+                                        "state": "pending"
+                                    }
+                                },
+                                {
+                                    "resolution": "add",
+                                    "addition": {
+                                        "sourcedUnit": {
+                                            "type": "animals",
+                                            "id": "20230227--OR-365-AMSCUR"
+                                        },
+                                        "reservationUnitId": "0861fdd2-af8a-4706-bcee-b1c3535aa0e3",
+                                        "total": {
+                                            "amount": 8000,
+                                            "currency": "EUR"
+                                        },
+                                        "assignments": [
+                                            {
+                                                "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035",
+                                                "assignmentId": "1",
+                                                "assignmentType": "Adult"
+                                            }
+                                        ],
+                                        "priceDetails": [
+                                            {
+                                                "amount": {
+                                                    "amount": 8000,
+                                                    "currency": "EUR"
+                                                },
+                                                "unit": "total",
+                                                "perPerson": true,
+                                                "id": "0f270c2b-f1ce-4300-8d79-57f2f301dd92",
+                                                "units": 1,
+                                                "type": "Base Price",
+                                                "category": "Base Price"
+                                            }
+                                        ],
+                                        "start": "2023-02-27T12:15:00.000Z",
+                                        "end": "2023-02-27T17:55:00.000Z",
+                                        "productUnit": {
+                                            "version": "to be received from sales",
+                                            "id": "AVIH"
+                                        },
+                                        "state": "pending"
+                                    }
+                                },
+                                {
+                                    "resolution": "add",
+                                    "addition": {
+                                        "sourcedUnit": {
+                                            "type": "seatclass",
+                                            "id": "20230227--OR-365-AMSCUR"
+                                        },
+                                        "reservationUnitId": "8f7a5022-7abb-4c4c-9b24-16547828d8a5",
+                                        "total": {
+                                            "amount": 7000,
+                                            "currency": "EUR"
+                                        },
+                                        "assignments": [
+                                            {
+                                                "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035",
+                                                "assignmentId": "1",
+                                                "assignmentType": "Adult"
+                                            }
+                                        ],
+                                        "priceDetails": [
+                                            {
+                                                "amount": {
+                                                    "amount": 7000,
+                                                    "currency": "EUR"
+                                                },
+                                                "unit": "total",
+                                                "perPerson": true,
+                                                "id": "9a753516-c414-474a-b3cd-1d2216b353b9",
+                                                "units": 1,
+                                                "type": "Base Price",
+                                                "category": "Base Price",
+                                                "relatedTo": "7b93be67-2537-4577-bfc6-bd63b4fb114a"
+                                            }
+                                        ],
+                                        "start": "2023-02-27T12:15:00.000Z",
+                                        "end": "2023-02-27T17:55:00.000Z",
+                                        "productUnit": {
+                                            "version": "to be received from sales",
+                                            "id": "COMFORT_SEAT"
+                                        },
+                                        "state": "pending"
+                                    }
+                                },
+                                {
+                                    "resolution": "add",
+                                    "addition": {
+                                        "sourcedUnit": {
+                                            "type": "seatclass",
+                                            "id": "20230227--OR-365-AMSCUR"
+                                        },
+                                        "reservationUnitId": "74e0b577-e83d-46e5-8664-f157670bc60c",
+                                        "total": {
+                                            "amount": 7000,
+                                            "currency": "EUR"
+                                        },
+                                        "assignments": [
+                                            {
+                                                "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741",
+                                                "assignmentId": "2",
+                                                "assignmentType": "Adult"
+                                            }
+                                        ],
+                                        "priceDetails": [
+                                            {
+                                                "amount": {
+                                                    "amount": 7000,
+                                                    "currency": "EUR"
+                                                },
+                                                "unit": "total",
+                                                "perPerson": true,
+                                                "id": "dd8fa8bc-d25b-4ff8-a59d-698e285d56fe",
+                                                "units": 1,
+                                                "type": "Base Price",
+                                                "category": "Base Price",
+                                                "relatedTo": "3ff191d2-6416-4106-b808-7680415b0f1d"
+                                            }
+                                        ],
+                                        "start": "2023-02-27T12:15:00.000Z",
+                                        "end": "2023-02-27T17:55:00.000Z",
+                                        "productUnit": {
+                                            "version": "to be received from sales",
+                                            "id": "COMFORT_SEAT"
+                                        },
+                                        "state": "pending"
+                                    }
+                                },
+                                {
+                                    "resolution": "remove",
+                                    "reservationUnitId": "0533c224-cc94-4767-9b88-ae1b34a72e46"
+                                },
+                                {
+                                    "resolution": "remove",
+                                    "reservationUnitId": "ebb44657-c3e3-4fbe-a808-5974b1415756"
+                                },
+                                {
+                                    "resolution": "remove",
+                                    "reservationUnitId": "5efcb29e-df66-4552-97ea-b977481f340a"
+                                },
+                                {
+                                    "resolution": "remove",
+                                    "reservationUnitId": "b000401b-f373-41f1-8263-730c9032749e"
+                                }
+                            ],
+                            "state": "pending",
+                            "reservationComponentId": "91919a36-6246-4f65-9b95-523e488b4b90",
+                            "resolution": "modify"
+                        }
+                    ],
+                    "reservationEnd": "2023-03-06",
+                    "state": "pending",
+                    "resolution": "modify",
+                    "productReservationId": "e57578d7-ff41-46fe-a34c-7656a6cac6eb",
+                    "reservationStart": "2023-02-27"
+                }
+            ],
+            "channel": {
+                "provider": "TUI",
+                "onBehalfOf": {
+                    "medium": "CUSTOMER_UI",
+                    "sourceMarket": "NL",
+                    "provider": "TUI",
+                    "brand": "TUI_NL",
+                    "target": "B2C",
+                    "collaborator": {
+                        "relationGuid": "89d7770f-c66f-eb11-a812-000d3a2a6031",
+                        "capacityId": "6964"
+                    }
+                },
+                "medium": "CUSTOMER_UI",
+                "sourceMarket": "NL",
+                "brand": "TUI_NL",
+                "target": "B2C",
+                "collaborator": {
+                    "name": "null null   071108",
+                    "relationGuid": "89d7770f-c66f-eb11-a812-000d3a2a6031",
+                    "capacityId": "6964",
+                    "agencyLocation": "Rijswijk ZH"
+                }
+            },
+            "salesOrderVersionId": "1",
+            "state": "pending",
+            "departureDate": "2023-02-27",
+            "salesOrderGuid": "ed15486d-8e69-46a9-bd00-361acb603526",
+            "resolution": "modify"
+        },
+        "result": {
+            "salesOrderGuid": "ed15486d-8e69-46a9-bd00-361acb603526",
+            "salesOrderVersionId": "2",
+            "date": "2023-02-22T08:36:12.330+00:00",
+            "bookDate": "2023-02-20",
+            "reference": "T200000848564",
+            "tags": [
+                {
+                    "tag": "200000848564",
+                    "tagType": "external reference"
+                }
+            ],
+            "salesParties": [
+                {
+                    "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035",
+                    "lastName": "Autoudyn",
+                    "firstName": "Autoozdu",
+                    "dateOfBirth": "1977-05-15",
+                    "nationality": "NL",
+                    "gender": "Female",
+                    "culture": {
+                        "country": "NL",
+                        "language": "nl"
+                    },
+                    "contactPoints": [
+                        {
+                            "structuredPhoneContactPoint": {
+                                "commonPhoneProperties": {
+                                    "commonContactPointProperties": {
+                                        "contactPointId": "cd630a44-a39e-406b-9fa2-e2dd4626253d",
+                                        "category": "Personal",
+                                        "priority": "First"
+                                    },
+                                    "number": "9364168129",
+                                    "phoneLineType": "MobilePhone"
+                                },
+                                "areaCode": "+32",
+                                "countryCode": "BE"
+                            }
+                        },
+                        {
+                            "emailContactPoint": {
+                                "commonContactPointProperties": {
+                                    "contactPointId": "6bea88c0-96d6-4a30-a649-cb8906b689ba",
+                                    "category": "Personal",
+                                    "priority": "First"
+                                },
+                                "email": "ekhcz@gmail.com"
+                            }
+                        },
+                        {
+                            "structuredPostalAddressContactPoint": {
+                                "commonContactPointProperties": {
+                                    "contactPointId": "382730a1-bfef-416e-b40d-f5c342d21e93",
+                                    "category": "Personal",
+                                    "priority": "First"
+                                },
+                                "buildingNumber": "13",
+                                "street": "ajlo",
+                                "subStreet": "lqriu",
+                                "town": "Javingue",
+                                "postalCode": "1285TB",
+                                "countryCode": "NL"
+                            }
+                        }
+                    ],
+                    "relation": {
+                        "relationGuid": "24170752",
+                        "relationSystem": "tor"
+                    }
+                },
+                {
+                    "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741",
+                    "lastName": "Perfngdg",
+                    "firstName": "Perfasbt",
+                    "dateOfBirth": "1957-11-08",
+                    "gender": "Male",
+                    "culture": {
+                        "country": "NL",
+                        "language": "nl"
+                    },
+                    "contactPoints": [],
+                    "relation": {
+                        "relationGuid": "24170754",
+                        "relationSystem": "tor"
+                    }
+                },
+                {
+                    "salesPartyId": "aee26cbe-ee01-4504-8e85-eca455bc3139",
+                    "lastName": "Perfzsox",
+                    "culture": {
+                        "country": "NL",
+                        "language": "nl"
+                    },
+                    "contactPoints": [
+                        {
+                            "structuredPhoneContactPoint": {
+                                "commonPhoneProperties": {
+                                    "commonContactPointProperties": {
+                                        "contactPointId": "6176083f-06d7-4a1f-93d7-4e92629b6659",
+                                        "category": "Personal",
+                                        "priority": "First"
+                                    },
+                                    "number": "7759191224",
+                                    "phoneLineType": "MobilePhone"
+                                },
+                                "areaCode": "+32",
+                                "countryCode": "BE"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "departureDate": "2023-02-27",
+            "version": 1,
+            "channel": {
+                "medium": "CUSTOMER_UI",
+                "target": "B2C",
+                "provider": "TUI",
+                "sourceMarket": "NL",
+                "brand": "TUI_NL",
+                "collaborator": {
+                    "relationGuid": "89d7770f-c66f-eb11-a812-000d3a2a6031",
+                    "capacityId": "6964",
+                    "name": "null null   071108",
+                    "agencyLocation": "Rijswijk ZH"
+                },
+                "onBehalfOf": {
+                    "medium": "CUSTOMER_UI",
+                    "target": "B2C",
+                    "provider": "TUI",
+                    "sourceMarket": "NL",
+                    "brand": "TUI_NL",
+                    "collaborator": {
+                        "relationGuid": "89d7770f-c66f-eb11-a812-000d3a2a6031",
+                        "capacityId": "6964"
+                    }
+                }
+            },
+            "returnDate": "2023-03-06",
+            "calculatedFreeCancellationDate": "2023-02-20",
+            "pax": [
+                "dc799065-ada9-4fc1-a07e-9fdd48936035",
+                "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+            ],
+            "soldTo": "dc799065-ada9-4fc1-a07e-9fdd48936035",
+            "emergency": "dc799065-ada9-4fc1-a07e-9fdd48936035",
+            "reservations": [
+                {
+                    "productReservationId": "e57578d7-ff41-46fe-a34c-7656a6cac6eb",
+                    "productGuid": "eJyUk0Fr4zwQhv+KmfPoqyRbdqyb7S8xoU0c5JgWQimKLC/ZZpvFbgqlVL99UWJo9tClPfqdVw+jB/kNNEhY1tc4bRRWCjlSpLhqUFXN8v+1mq8wu7nB5373e3gY9N4OeDvNUcQCELYgNxsoGoXZokZOeUhoSKhYs1RGQlL6kcVrRmV4yiqFQZhQnDFEVLPbEhHucQOe4VnnM5zwZM24ZBecc5ZI8cGJxcjJz5x7BANy8wbbw+Fx9/Sj2OthAAkzBghPw+N/xgdVV9v+ZWcsSFCzcdLp3uZ62A3FoT0PbsuLUW33+2v7ChKoUzMXuLvQ+YrjgjHnqGPO3Y39n4dj/2Rfz3W/Ow2pCCrl7x0UjcoW9d/ND3ilnG+5wLmiUY6GV1RceURwkuqyRX0K4zH0Vp0baf22vbxrf9zb5fHX1vZ+DcEYvON3zOSfmck/N5OPZvKvmuE8OZmJRZAt6qJR/zQTC2/mJIFf8WSU4J/JWddF6N/JN8zcI/gKlawNTWtiQ5hOJyRqDSN6QidECJYmfqLDSK7UvJgvS2JYwjomEt/jJIomKUkTnvqzehLZlqdmIk3X6ZDqhGhDIxJZvSWat5QkcWdsSAUVWgOCBfkGeVaWWTn1f2X1kGflw3xZAPqPerrKQMJzf7SA8GLMyQm8I3Qg4Stbw/ufAAAA//+P6Ro2",
+                    "productType": "FLIGHT_ONLY",
+                    "state": "confirmed",
+                    "channel": {
+                        "medium": "CUSTOMER_UI",
+                        "target": "B2C",
+                        "provider": "TUI",
+                        "sourceMarket": "NL",
+                        "brand": "TUI_NL",
+                        "collaborator": {
+                            "relationGuid": "89d7770f-c66f-eb11-a812-000d3a2a6031",
+                            "capacityId": "6964",
+                            "name": "null null   071108",
+                            "agencyLocation": "Rijswijk ZH"
+                        }
+                    },
+                    "totalPax": 2,
+                    "freeCancellation": "2023-02-20",
+                    "reservationStart": "2023-02-27",
+                    "maxCancellation": "2023-02-27",
+                    "reservationEnd": "2023-03-06",
+                    "total": {
+                        "amount": 199996,
+                        "currency": "EUR"
+                    },
+                    "components": [
+                        {
+                            "reservationComponentId": "91919a36-6246-4f65-9b95-523e488b4b90",
+                            "productComponent": {
+                                "guid": "eJyKVnL0DdZxDg3SMTIwMtY1MNI1Mg8xNLIyNLUyMEARM7cyBYv5B+koGJuZguiAUKVYQAAAAP//2h8OZA==:2511",
+                                "version": "",
+                                "groupIndex": 1
+                            },
+                            "sourcedComponent": {
+                                "id": "eJyKVnL0DdZxDg3SMTIwMtY1MNI1Mg8xNLIyNLUyMEARM7cyBYv5B+koGJuZguiAUKVYQAAAAP//2h8OZA==:2511",
+                                "category": "Flight",
+                                "type": "Owned Flight",
+                                "instance": "20230227 OR 365 AMSCUR",
+                                "specification": {
+                                    "flightNumber": "365",
+                                    "carrier": "OR"
+                                },
+                                "externalReferences": [
+                                    {
+                                        "identifier": "eJyUk1Fro0wUhv+KnOszX2dGR+vcqV8ioU0MY6SFUMpoxiXbbLNoUyil89uXUSHZiy7tpe95fTjzMPMOGiSsyhucVQoLhRwpUlxXqIpq9f9GLdaY3N7iS7f/3T/2+mB6vJulKEIBCDXI7RaySmGyLJFT7hPqEyo2LJaBkJSes3DDqPSHrFDo+RHFOUNENb/LEeEBt+AYjjX+wwmPNoxLdsEZs0iKMycUEycdOQ8IDcjtO9TH49P++Ud20H0PEuYMEJ77p/8aFxRtabrXfWNAgppPk1Z3JtX9vs+Ou3Fwl1+MSnM43Jg3kECtmlvP3vvWVSwXjFlLLbP2fur/PJ66Z/M21t3u1KfCK5Q7t5dVKlmWfzfP8EJZ17KetVmlLPWvqLhyCG+QapNlOYThFDqr1k60rt5dnrU7Hczq9Ks2nVtDMAYf+B0z6Wdm0s/NpJOZ9KtmOI8GM6HwkmWZVeqfZkLhzAwS+BWPJgnumoy6LkJ3T75h5gHBVag0NAx8rX2yE9SQQNc1iesoJmEbssAYGtQ1l2u1yBarnDQsYi0TEQl2DSdBcB2TOOIxYTrW14HZ8bi5lk3bap/qiOiGBiQwuiaa7yiJwrYxPhVUaA0IBuQ7pEmeJ/nMvcriMU3yx8UqA3Qf5WydgISX7mQA4bVpBifwgdCChK9sDR9/AgAA//+l2xqC",
+                                        "kind": "FlightCombiHashCode"
+                                    },
+                                    {
+                                        "identifier": "S4TD5P",
+                                        "kind": "pnr"
+                                    }
+                                ]
+                            },
+                            "locations": [
+                                "AMS",
+                                "CUR"
+                            ],
+                            "state": "confirmed",
+                            "start": "2023-02-27T12:15:00.000Z",
+                            "end": "2023-02-27T17:55:00.000Z",
+                            "total": {
+                                "amount": 95998,
+                                "currency": "EUR"
+                            },
+                            "units": [
+                                {
+                                    "reservationUnitId": "3737c9d9-ce91-4820-97c8-dfebaa681be3",
+                                    "productUnit": {
+                                        "id": "eJyKVnL0DdZxDg3SMTIwMtY1MNI1Mg8xNLIyNLUyMEARM7cyBYv5B+koGJuZguiAUKVYQAAAAP//2h8OZA==:2511",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "to be received in salesOrderRequested",
+                                        "type": "seat",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 47999,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "b050dd01-bfcf-4efc-889d-d8cd712dd9bf",
+                                            "amount": {
+                                                "amount": 44050,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 0,
+                                            "perPerson": true
+                                        },
+                                        {
+                                            "id": "23ffe56e-eb80-40b3-b7b3-e7135ff1257a",
+                                            "amount": {
+                                                "amount": 1323,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Airport Tax",
+                                            "category": "Taxes",
+                                            "units": 0,
+                                            "perPerson": true,
+                                            "specification": "CJ"
+                                        },
+                                        {
+                                            "id": "263c5589-d98f-4242-abef-855b2abacceb",
+                                            "amount": {
+                                                "amount": 1831,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Airport Tax",
+                                            "category": "Taxes",
+                                            "units": 0,
+                                            "perPerson": true,
+                                            "specification": "RN"
+                                        },
+                                        {
+                                            "id": "5ee74874-5db8-4e89-aa2d-4026d4922728",
+                                            "amount": {
+                                                "amount": 795,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Airport Tax",
+                                            "category": "Taxes",
+                                            "units": 0,
+                                            "perPerson": true,
+                                            "specification": "VV"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "1477f793-d609-4123-83cf-6218b7cafc0d",
+                                    "productUnit": {
+                                        "id": "eJyKVnL0DdZxDg3SMTIwMtY1MNI1Mg8xNLIyNLUyMEARM7cyBYv5B+koGJuZguiAUKVYQAAAAP//2h8OZA==:2511",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "to be received in salesOrderRequested",
+                                        "type": "seat",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 47999,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "a460c2c2-4fdc-44b0-95fb-d88626eb5a8d",
+                                            "amount": {
+                                                "amount": 44050,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 0,
+                                            "perPerson": true
+                                        },
+                                        {
+                                            "id": "34f3ee12-08d9-4b44-98fe-de5db8c21904",
+                                            "amount": {
+                                                "amount": 1323,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Airport Tax",
+                                            "category": "Taxes",
+                                            "units": 0,
+                                            "perPerson": true,
+                                            "specification": "CJ"
+                                        },
+                                        {
+                                            "id": "73ff8310-1da4-4d3e-b1ca-78aa942696bc",
+                                            "amount": {
+                                                "amount": 1831,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Airport Tax",
+                                            "category": "Taxes",
+                                            "units": 0,
+                                            "perPerson": true,
+                                            "specification": "RN"
+                                        },
+                                        {
+                                            "id": "1ec22684-3854-446e-9b03-7d627ba8c6fe",
+                                            "amount": {
+                                                "amount": 795,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Airport Tax",
+                                            "category": "Taxes",
+                                            "units": 0,
+                                            "perPerson": true,
+                                            "specification": "VV"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "490090fd-636c-427a-9819-d133c80a231a",
+                                    "productUnit": {
+                                        "id": "PWIM",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "ssr-service-bundle",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "7b93be67-2537-4577-bfc6-bd63b4fb114a",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "46553dfa-6280-4efc-9c52-c2c852da5847",
+                                    "productUnit": {
+                                        "id": "PWIM",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "ssr-service-bundle",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "3ff191d2-6416-4106-b808-7680415b0f1d",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "e9f7b5fb-730e-4334-ad51-c5658b1b8af6",
+                                    "productUnit": {
+                                        "id": "MEAL_STANDARD_MEAL",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "meals",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "caa9889f-cf92-40a3-81ba-7d5d2b00df72",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "7b93be67-2537-4577-bfc6-bd63b4fb114a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "b0a3adcf-1183-496a-95a8-f0bad663b40b",
+                                    "productUnit": {
+                                        "id": "MEAL_STANDARD_MEAL",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "meals",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "2e4d60e2-f0a1-470c-89ea-f0fa798feb1c",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "3ff191d2-6416-4106-b808-7680415b0f1d"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "4094f300-7693-4309-bde7-ea3479a64836",
+                                    "productUnit": {
+                                        "id": "BG20",
+                                        "version": "to be received from sales"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "baggage"
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 2700,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "e9f30f36-4da7-47f7-8fc0-f225e85557e9",
+                                            "amount": {
+                                                "amount": 2700,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "7b93be67-2537-4577-bfc6-bd63b4fb114a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "1d7f7b2c-5212-4252-8efe-2e1b9600b324",
+                                    "productUnit": {
+                                        "id": "BG20",
+                                        "version": "to be received from sales"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "baggage"
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 2700,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "ec111513-6ebd-47b4-9b0d-9b0d6e883a74",
+                                            "amount": {
+                                                "amount": 2700,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "3ff191d2-6416-4106-b808-7680415b0f1d"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "0861fdd2-af8a-4706-bcee-b1c3535aa0e3",
+                                    "productUnit": {
+                                        "id": "AVIH",
+                                        "version": "to be received from sales"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "animals"
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 8000,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "0f270c2b-f1ce-4300-8d79-57f2f301dd92",
+                                            "amount": {
+                                                "amount": 8000,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "8f7a5022-7abb-4c4c-9b24-16547828d8a5",
+                                    "productUnit": {
+                                        "id": "COMFORT_SEAT",
+                                        "version": "to be received from sales"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "seatclass"
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 7000,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "9a753516-c414-474a-b3cd-1d2216b353b9",
+                                            "amount": {
+                                                "amount": 7000,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "7b93be67-2537-4577-bfc6-bd63b4fb114a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "74e0b577-e83d-46e5-8664-f157670bc60c",
+                                    "productUnit": {
+                                        "id": "COMFORT_SEAT",
+                                        "version": "to be received from sales"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230227--OR-365-AMSCUR",
+                                        "type": "seatclass"
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-02-27T12:15:00.000Z",
+                                    "end": "2023-02-27T17:55:00.000Z",
+                                    "total": {
+                                        "amount": 7000,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "dd8fa8bc-d25b-4ff8-a59d-698e285d56fe",
+                                            "amount": {
+                                                "amount": 7000,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "3ff191d2-6416-4106-b808-7680415b0f1d"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "reservationComponentId": "4919f2be-1a43-4fa3-aaa6-316cac398cff",
+                            "productComponent": {
+                                "guid": "eJyKVnIODdJx9A3WMTIwMtY1MNY1MA0xtLQyMbUyMECImYUYGlgZg8X8g3QUjM3BdECoUiwgAAD//9pBDlw=:2511",
+                                "version": "",
+                                "groupIndex": 1
+                            },
+                            "sourcedComponent": {
+                                "id": "eJyKVnIODdJx9A3WMTIwMtY1MNY1MA0xtLQyMbUyMECImYUYGlgZg8X8g3QUjM3BdECoUiwgAAD//9pBDlw=:2511",
+                                "category": "Flight",
+                                "type": "Owned Flight",
+                                "instance": "20230305 OR 370 CURAMS",
+                                "specification": {
+                                    "flightNumber": "370",
+                                    "carrier": "OR"
+                                },
+                                "externalReferences": [
+                                    {
+                                        "identifier": "eJyUk1Fro0wUhv+KnOszX2dGR+vcqV8ioU0MY6SFUMpoxiXbbLNoUyil89uXUSHZiy7tpe95fTjzMPMOGiSsyhucVQoLhRwpUlxXqIpq9f9GLdaY3N7iS7f/3T/2+mB6vJulKEIBCDXI7RaySmGyLJFT7hPqEyo2LJaBkJSes3DDqPSHrFDo+RHFOUNENb/LEeEBt+AYjjX+wwmPNoxLdsEZs0iKMycUEycdOQ8IDcjtO9TH49P++Ud20H0PEuYMEJ77p/8aFxRtabrXfWNAgppPk1Z3JtX9vs+Ou3Fwl1+MSnM43Jg3kECtmlvP3vvWVSwXjFlLLbP2fur/PJ66Z/M21t3u1KfCK5Q7t5dVKlmWfzfP8EJZ17KetVmlLPWvqLhyCG+QapNlOYThFDqr1k60rt5dnrU7Hczq9Ks2nVtDMAYf+B0z6Wdm0s/NpJOZ9KtmOI8GM6HwkmWZVeqfZkLhzAwS+BWPJgnumoy6LkJ3T75h5gHBVag0NAx8rX2yE9SQQNc1iesoJmEbssAYGtQ1l2u1yBarnDQsYi0TEQl2DSdBcB2TOOIxYTrW14HZ8bi5lk3bap/qiOiGBiQwuiaa7yiJwrYxPhVUaA0IBuQ7pEmeJ/nMvcriMU3yx8UqA3Qf5WydgISX7mQA4bVpBifwgdCChK9sDR9/AgAA//+l2xqC",
+                                        "kind": "FlightCombiHashCode"
+                                    },
+                                    {
+                                        "identifier": "S4TD5P",
+                                        "kind": "pnr"
+                                    }
+                                ]
+                            },
+                            "locations": [
+                                "CUR",
+                                "AMS"
+                            ],
+                            "state": "confirmed",
+                            "start": "2023-03-05T19:45:00.000Z",
+                            "end": "2023-03-06T10:35:00.000Z",
+                            "total": {
+                                "amount": 103998,
+                                "currency": "EUR"
+                            },
+                            "units": [
+                                {
+                                    "reservationUnitId": "8727a469-102d-4a81-a3de-b1d0b23fff63",
+                                    "productUnit": {
+                                        "id": "eJyKVnIODdJx9A3WMTIwMtY1MNY1MA0xtLQyMbUyMECImYUYGlgZg8X8g3QUjM3BdECoUiwgAAD//9pBDlw=:2511",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "to be received in salesOrderRequested",
+                                        "type": "seat",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 51999,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "71e28ee3-c446-466e-8669-160d98647b7e",
+                                            "amount": {
+                                                "amount": 46216,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 0,
+                                            "perPerson": true
+                                        },
+                                        {
+                                            "id": "1030beb0-5f98-403c-a232-63d4db47f401",
+                                            "amount": {
+                                                "amount": 5783,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Airport Tax",
+                                            "category": "Taxes",
+                                            "units": 0,
+                                            "perPerson": true,
+                                            "specification": "AN"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "fb610903-ae37-48c9-9c3a-42b0d45b7e68",
+                                    "productUnit": {
+                                        "id": "eJyKVnIODdJx9A3WMTIwMtY1MNY1MA0xtLQyMbUyMECImYUYGlgZg8X8g3QUjM3BdECoUiwgAAD//9pBDlw=:2511",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "to be received in salesOrderRequested",
+                                        "type": "seat",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 51999,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "d41f1b5c-01e5-40fd-8d1f-c19b37896df9",
+                                            "amount": {
+                                                "amount": 46216,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 0,
+                                            "perPerson": true
+                                        },
+                                        {
+                                            "id": "3312359a-5be7-4193-ae29-1b9939010efe",
+                                            "amount": {
+                                                "amount": 5783,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Airport Tax",
+                                            "category": "Taxes",
+                                            "units": 0,
+                                            "perPerson": true,
+                                            "specification": "AN"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "fbdbdaf6-afc5-4f69-87ce-b75085f64c5c",
+                                    "productUnit": {
+                                        "id": "PWIM",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230305--OR-370-CURAMS",
+                                        "type": "ssr-service-bundle",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "2b8148d5-ade0-420d-8d8a-ad47799a5b4b",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "447b8b19-3148-4c04-b0ee-5015f4c84357",
+                                    "productUnit": {
+                                        "id": "PWIM",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230305--OR-370-CURAMS",
+                                        "type": "ssr-service-bundle",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "36d7ed55-5158-40da-ae4b-a7eb0072317e",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "0c83aa16-5254-4cac-a74b-07015c8c35dc",
+                                    "productUnit": {
+                                        "id": "STANDARD_SEAT",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230305--OR-370-CURAMS",
+                                        "type": "seatclass",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "adfc5349-ab9b-486a-81b2-b8853c97901c",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "7b93be67-2537-4577-bfc6-bd63b4fb114a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "0482d1bd-346a-42a5-bcf5-83218baf8941",
+                                    "productUnit": {
+                                        "id": "STANDARD_SEAT",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230305--OR-370-CURAMS",
+                                        "type": "seatclass",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "37e11f53-a93c-4331-9384-0f287e46dcac",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "3ff191d2-6416-4106-b808-7680415b0f1d"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "1cefcf43-3f0f-4f29-9422-482c7a0edda9",
+                                    "productUnit": {
+                                        "id": "MEAL_STANDARD_MEAL",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230305--OR-370-CURAMS",
+                                        "type": "meals",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "e0bc4c3b-3272-468a-9f73-d9c80c4d1f9e",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "7b93be67-2537-4577-bfc6-bd63b4fb114a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "bf6ec04d-458c-48cf-a158-c85e98b22923",
+                                    "productUnit": {
+                                        "id": "MEAL_STANDARD_MEAL",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230305--OR-370-CURAMS",
+                                        "type": "meals",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "7e1d183e-f16e-403a-a721-efc64e2fbc5c",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "3ff191d2-6416-4106-b808-7680415b0f1d"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "436dc4b7-da72-4ec5-9169-63a83ba2d6ef",
+                                    "productUnit": {
+                                        "id": "BG00",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230305--OR-370-CURAMS",
+                                        "type": "baggage",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "1",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "dc799065-ada9-4fc1-a07e-9fdd48936035"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "8123cae5-035d-4b4b-b01e-21e25d5b8770",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "7b93be67-2537-4577-bfc6-bd63b4fb114a"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "reservationUnitId": "0886eae2-975c-4056-9812-ab7202a0b50c",
+                                    "productUnit": {
+                                        "id": "BG00",
+                                        "version": "to be received in salesOrderRequested"
+                                    },
+                                    "sourcedUnit": {
+                                        "id": "20230305--OR-370-CURAMS",
+                                        "type": "baggage",
+                                        "references": [
+                                            {
+                                                "reference": "7C3509"
+                                            }
+                                        ]
+                                    },
+                                    "state": "confirmed",
+                                    "start": "2023-03-05T19:45:00.000Z",
+                                    "end": "2023-03-06T10:35:00.000Z",
+                                    "total": {
+                                        "amount": 0,
+                                        "currency": "EUR"
+                                    },
+                                    "assignments": [
+                                        {
+                                            "assignmentId": "2",
+                                            "assignmentType": "Adult",
+                                            "salesPartyId": "eb43dfbd-2b28-45cf-859a-6ba11ec97741"
+                                        }
+                                    ],
+                                    "priceDetails": [
+                                        {
+                                            "id": "bb07d609-b01b-4573-889f-2276a6ffaf56",
+                                            "amount": {
+                                                "amount": 0,
+                                                "currency": "EUR"
+                                            },
+                                            "unit": "total",
+                                            "type": "Base Price",
+                                            "category": "Base Price",
+                                            "units": 1,
+                                            "perPerson": true,
+                                            "relatedTo": "3ff191d2-6416-4106-b808-7680415b0f1d"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "commercialProductType": "FLIGHT_ONLY"
+                }
+            ],
+            "state": "confirmed",
+            "paymentPlan": {
+                "depositPolicy": {
+                    "policy": "987c63a1-967e-4b95-a1bf-02acde48014a",
+                    "rule": "99",
+                    "historic": {
+                        "id": "b191dd82-cd21-4b0d-a41a-3e61b424499a",
+                        "timestamp": "2023-02-22T08:36:08.578+00:00",
+                        "changedBy": {
+                            "relationGuid": "relationGuid",
+                            "capacityId": "capacityId"
+                        }
+                    }
+                },
+                "balance": {
+                    "dueDate": "2023-02-20",
+                    "amount": {
+                        "amount": 228896,
+                        "currency": "EUR"
+                    }
+                }
+            },
+            "total": {
+                "amount": 228896,
+                "currency": "EUR"
+            },
+            "stayAtHome": "aee26cbe-ee01-4504-8e85-eca455bc3139",
+            "priceDetails": [
+                {
+                    "id": "3d8edc46-2e3c-43e3-ae8a-fdadc29b9a71",
+                    "amount": {
+                        "amount": 1500,
+                        "currency": "EUR"
+                    },
+                    "unit": "total",
+                    "type": "Sales Fee",
+                    "category": "Fee",
+                    "units": 0,
+                    "perPerson": false
+                }
+            ],
+            "ptdInfo": {
+                "tuiRolePerPTD": "Undefined"
+            }
+        }
+    },
+    "eventVersion": "12",
+    "eventType": "SalesOrderCommitted"
+}

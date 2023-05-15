@@ -1,0 +1,25 @@
+{
+    "eventId": "f4139483-c4ef-4764-9eab-c11f7a901340",
+    "businessProcessId": "a470529d-856b-4034-8bdf-3252906c2ca4",
+    "businessProcessName": "Flight Time change",
+    "eventType": "SalesOrderCommitted",
+    "eventVersion": "12",
+    "producedTimeStamp": "2022-12-19T08:33:16.964+00:00",
+    "producedBy": "Reservation component",
+    "producedByVersion": "X-ray delta 4",
+    "payload": {
+        "result": {
+            "salesOrderGuid": "t4yt56j2b-i808-3qs2-02cb-1y6f5ts5g4",
+            "salesOrderVersionId": "1",
+            "date": "2021-10-08T08:33:04.062+00:00",
+            "reference": "310111563463",
+            "tags": [
+                {
+                    "tag": "310111563463",
+                    "tagType": "external reference"
+                }
+            ],
+            "channel": {}
+        }
+    }
+}
